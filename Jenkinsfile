@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        APP_SERVER = 'deploy@10.114.0.3'
+        APP_SERVER = 'deploy@10.114.0.2'
         APP_DIR = '/opt/juice-shop'
     }
 
